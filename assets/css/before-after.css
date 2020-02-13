@@ -1,0 +1,28 @@
+p {
+   width: 300px;
+   border: solid 1px white;
+   padding: 20px;
+}
+
+p::before {
+   content: "user 1: ";
+   border: solid 1px white;
+   padding: 2px;
+   margin: 0 10px 0 0;
+}
+p::after {
+    content: "lu";
+    font-style: italic;
+    color: blue
+}
+
+q {
+    font-size: 50px;
+    font-family: sans-serif;
+}
+q::before {
+    color: red;
+}
+q::after {
+    color: green
+}

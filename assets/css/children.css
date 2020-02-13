@@ -1,0 +1,24 @@
+.children li{
+    color: blue;
+}
+
+.children li:first-child{
+    color: green;
+}
+.children li:last-child{
+    color: red;
+}
+
+
+.premier li:nth-child(odd){
+    background-color: lime;
+}
+.deuxieme li:nth-child(even){
+    background-color: red;
+}
+.troisieme li:nth-of-type(2) {
+    background-color: grey;
+}
+.quatrieme li:nth-of-type(4n+2) {
+    background-color: olive;
+}

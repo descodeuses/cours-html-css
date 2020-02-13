@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="assets/css/global.css">
+        <link rel="stylesheet" href="assets/css/children.css">
+    </head>
+    <body>
+        <h1 class="title">L'enfant : child </h1>
+        <div class="container children">
+            <div class="col-6">
+                <ul>
+                    <li>Élément 1 de la liste</li>
+                    <li>Élément 2</li>
+                    <li>Élément 3</li>
+                    <li>Élément 4</li>
+                    <li>Élément 5</li>
+                    <li>Élément 6</li>
+                </ul>
+                <pre>
+                    li{
+                        color: blue;
+                    }
+
+                    li:first-child{
+                        color: green;
+                    }
+                    li:last-child{
+                        color: red;
+                    }
+                </pre>
+            </div>
+        </div>
+        <div class="container premier">
+            <h2>On selectionne les enfants impaires</h2>
+            <pre>
+                :nth-child(2n+1)
+                :nth-child(odd)
+            </pre>
+            <p>2n+1 ciblera les éléments fils 1, 3, 5, 7, etc. On pourra utiliser le mot-clé "odd" à la place de cette expression.</p>
+            <ul>
+                <li>Élément 1 de la liste</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+                <li>Élément 4</li>
+                <li>Élément 5</li>
+                <li>Élément 6</li>
+            </ul>
+        </div>
+        <div class="container deuxieme">
+            <h2>On selectionne les enfants paires</h2>
+            <pre>
+                :nth-child(2n)
+                :nth-child(2n+0)
+                :nth-child(even)
+            </pre>
+            <p>2n+0 ou 2n ciblera les éléments fils 2, 4, 6, 8, etc. On pourra utiliser le mot-clé "even" à la place de cette expression.</p>
+            <ul>
+                <li>Élément 1 de la liste</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+                <li>Élément 4</li>
+                <li>Élément 5</li>
+                <li>Élément 6</li>
+            </ul>
+        </div>
+        <div class="container troisieme">
+            <h2>On selectionne un enfants de tous</h2>
+            <pre>
+                :nth-child(4)
+            </pre>
+            <ul>
+                <li>Élément 1 de la liste</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+                <li>Élément 4</li>
+                <li>Élément 5</li>
+                <li>Élément 6</li>
+            </ul>
+        </div>
+        <div class="container quatrieme">
+            <h2>On selectionne An+b</h2>
+            <pre>
+                :nth-child(2n+3)
+            </pre>
+            <ul>
+                <li>Élément 1 de la liste</li>
+                <li>Élément 2</li>
+                <li>Élément 3</li>
+                <li>Élément 4</li>
+                <li>Élément 5</li>
+                <li>Élément 6</li>
+            </ul>
+        </div>
+    </body>
+</html>

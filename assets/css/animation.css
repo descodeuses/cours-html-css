@@ -1,0 +1,46 @@
+.showme {
+    display: none;
+}
+
+.showhim:hover .showme {
+    display: block;
+}
+h2:hover {
+    font-size: 30px;
+}
+
+h3 {
+    font-weight: 100;
+}
+h3:hover {
+    font-weight: bold;
+}
+
+.boxy {
+  width: 80px;
+  height: 80px;
+  background-color: skyblue;
+}
+
+.tourne {
+     transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+    background-color: pink;
+}
+
+.boxy:hover {
+  transform: rotate(45deg); /* Équivalent à rotateZ(45deg) */
+  background-color: skyblue;
+}
+
+.filter-grey {
+    filter: grayscale(0.5);
+}
+.filter-grey:hover {
+    filter: none;
+}
+.filter-sepia {
+    filter: sepia(1);
+}
+.filter-sepia:hover {
+    filter: saturate(1);
+}

@@ -1,0 +1,14 @@
+.display-none {
+    display: none;
+}
+.visibility-none {
+    visibility: hidden;
+}
+
+.showme {
+    display: none;
+}
+
+.showhim:hover .showme {
+    display: block;
+}

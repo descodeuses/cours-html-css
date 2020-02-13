@@ -1,0 +1,32 @@
+.jaune {
+      background-color: #ffff00;
+      float: right;
+      width: 100px;
+      margin: 0;
+}
+.verte {
+    background-color: #00ff00;
+}
+
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+
+
+.clear-both {
+    clear: both;
+}
+.clear-right {
+    clear: right;
+}
+.clear-left {
+    clear: left;
+}
+
+.clearfix {
+    overflow: auto;
+}

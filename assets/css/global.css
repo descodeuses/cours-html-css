@@ -1,0 +1,60 @@
+.title {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 5px
+}
+.subtitle {
+    font-size: 1.2em;
+}
+
+.content {
+    font-size: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.box.square {
+    height: 200px;
+    width: 200px;
+}
+.box.rectangle {
+    height: 200px;
+    width: 400px;
+}
+
+.bg-red {
+    background: red;
+}
+.bg-blue {
+    background: blue;
+}
+.bg-green {
+    background: green;
+}
+
+.square {
+    width: 200px
+}
+
+.border {
+    border: 1px solid #000
+}
+.fullwidth {
+    width: 100%;
+}
+.minheight {
+    height: 200px
+}
+.padding {
+    padding: 15px;
+}
+
+.column-6 {
+    width: 50%;
+    display: flex;
+}

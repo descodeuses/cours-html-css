@@ -1,0 +1,33 @@
+.superbox {
+    height: 300px
+}
+.align-text {
+    text-align: center;
+}
+.align-margin  {
+    width: 200px;
+    margin: 0 auto;
+}
+.align-relative  {
+    position: relative;
+    left: 45%;
+    top: 35%
+}
+.align-padding  {
+    padding: 100px 0;
+    text-align: center;
+}
+.align-ligne_height  {
+    line-height: 200px;
+    text-align: center;
+}
+
+img.haut {
+    vertical-align: text-top;
+}
+img.bas {
+    vertical-align: text-bottom;
+}
+img.pourcents {
+    vertical-align: 200%;
+}
