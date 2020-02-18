@@ -16,9 +16,9 @@
 .deuxieme li:nth-child(even){
     background-color: red;
 }
-.troisieme li:nth-of-type(2) {
+.troisieme li:nth-child(2) {
     background-color: grey;
 }
-.quatrieme li:nth-of-type(4n+2) {
+.quatrieme li:nth-of-type(2n+3) {
     background-color: olive;
 }
