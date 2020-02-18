@@ -58,3 +58,37 @@
     width: 50%;
     display: flex;
 }
+
+.font-size-small {
+    font-size: 10px
+}
+.font-size-medium {
+    font-size: 20px
+}
+.font-size-big {
+    font-size: 30px
+}
+
+
+
+.rectangle {
+    width: 300px;
+    height: 400px;
+    border: 1px solid #000;
+}
+.bg.red {
+    background: red
+}
+.bg.blue {
+    background: blue
+}
+
+.carre {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #000;
+}
+
+.scroll {
+    overflow: scroll;
+}
